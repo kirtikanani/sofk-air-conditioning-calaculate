@@ -1,4 +1,4 @@
-=== Sofk Air Conditioning Calaculate ===
+=== Sofk Air Conditioning calculate ===
 Contributors: Sofk Pvt Ltd
 Tags: air conditioning, calculator, HVAC
 Requires at least: 4.6
@@ -15,7 +15,7 @@ This plugin adds a simple air conditioning calculator to your WordPress website.
 
 == Installation ==
 
-1. Upload the `sofk-air-conditioning-calaculate` folder to the `/wp-content/plugins/` directory
+1. Upload the `sofk-air-conditioning-calculate` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Use the shortcode `[air_condition_cal]` in your posts or pages to display the calculator.
 
