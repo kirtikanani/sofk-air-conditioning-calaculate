@@ -1,0 +1,124 @@
+
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+  }
+      
+              .air_condition_cal{    max-width: 100%!important;
+      width: 768px!important;    margin: auto;
+      display: table;}
+              .air_condition_cal_div h2{    font-size: 36px;
+      letter-spacing: 0;}
+          .air_condition_cal label{  
+      display: block;color:#000;
+      font-size: 22px;
+      margin-bottom: 0.25em;
+      }
+      .air_condition_cal .form-group{margin-bottom: 2em;}
+      .air_condition_cal button{    
+      width: 100%;
+      font-size: 22px;
+      font-weight: 600;
+      text-transform: uppercase;
+      fill: #000;
+      color: #000;
+      background-color: transparent;
+      border-radius: 50px 50px 50px 50px;
+      padding: 15px 35px 15px 35px;
+      border: 1px solid #000;
+  }
+  .air_condition_cal button:hover{color: #000;
+      background-color: transparent;border: 1px solid #000;
+      }
+      .air_condition_cal .form-check-label{    font-size: 22px;
+      margin-left: 10px;    line-height: 35px;
+  }
+      .air_condition_cal input[type="range"]::-webkit-slider-thumb {width: 24px;
+    height: 24px;position: relative;border: 7.9px solid #0d6efd;
+    top: -3px;border-radius: unset;background-color: #0d6efd;    border-color: #0d6efd;clip-path: polygon(0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%);}
+    .air_condition_cal input[type="range"]::-moz-range-thumb {width: 24px;
+    height: 24px;position: relative;border: 7.9px solid #0d6efd;
+    top: -3px;border-radius: unset;background-color: #0d6efd;    border-color: #0d6efd;clip-path: polygon(0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%);}
+    .air_condition_cal input[type="range"]::-webkit-slider-runnable-track {
+    background: #e9ecef;
+    box-shadow: unset;
+  }
+      .air_condition_cal input[type="range"]::-moz-range-track {
+    background: #e9ecef;
+    box-shadow: unset;
+  }
+    .air_condition_cal input[type="range"] {height: 2px;    margin-top: 40px;}
+    .air_condition_cal .air_cal_result{ display: none;   font-size: 28px;    color: #000;
+      float: left;
+      margin-top: 20px;}
+      .air_condition_cal .range-wrap {
+    position: relative;
+    margin: 0 0 20px 0px;
+  }
+  .air_condition_cal .range {
+    width: 100%;
+  }
+  .air_condition_cal .bubble {    background: transparent;
+      color: #000;
+      padding: 0;
+      position: absolute;
+      border-radius: 4px;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 30px;    font-size: 15px;    width: 36px;text-align: center;
+  }
+  .air_condition_cal .form-check-input{    width: 25px;
+      height: 25px;}
+  .air_condition_cal .form-check-input:focus {
+      border-color: unset;
+      outline: 0;
+      box-shadow: unset;
+  }
+  .air_condition_cal .form-check-input:checked {
+      background-color: #fff;
+      border-color: #ddd;
+  }
+  .air_condition_cal .form-check-input:checked[type=radio] {
+      --bs-form-check-bg-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2.5' fill='%230d6efd'/%3e%3c/svg%3e");
+  }
+  .air_condition_cal .floor-input{ display: none;   font-size: 28px;color:#000;float: right;
+      margin-top: 20px;}
+  .air_condition_cal .floor-input{display:none;}
+  .error_message {    float: left;
+      padding-bottom: 1rem;
+      width: 100%;}
+  .ac_listing{    display: table;
+      width: 100%;}
+  .ac_listing p{    color: #000;
+      font-size: 24px;
+      width: 100%;
+      float: left;
+      text-align: center;
+      margin-top: 20px;
+      font-weight: bold;
+      }
+  .ac_listing img{width: 80%;
+      margin: auto;
+      display: table;}
+  .ac_listing a{     font-size: 16px;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: #000!important;
+      background-color: transparent;
+      border-radius: 50px 50px 50px 50px;
+      padding: 15px 35px 15px 35px;
+      margin: auto;
+      display: table;
+      cursor: pointer;
+      border: 1px solid #000;
+  }
+  
+  /*.bubble::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: red;
+    top: -1px;
+    left: 50%;
+  }*/
