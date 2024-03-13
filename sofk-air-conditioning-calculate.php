@@ -1,9 +1,9 @@
 <?php
 /**
- * @package Sofk Air Conditioning Calaculate
+ * @package Sofk Air Conditioning calculate
  */
 /*
-Plugin Name: Sofk Air Conditioning Calaculate
+Plugin Name: Sofk Air Conditioning calculate
 Plugin URI:  https://sofkpvtltd.com/shopfromreel/air-conditioning-calculator/
 Description:  A short little description of the plugin. It will be displayed on the Plugins page in WordPress admin area.short code [air_condition_cal]
 Version:      1.0
@@ -11,14 +11,14 @@ Author:       Sofk Pvt Ltd
 Author URI:   https://sofkpvtltd.com/
 License:      GPL2
 License URI:  https://www.gnu.org/licenses/gpl-2.0.html
-Text Domain:  sofk-air-conditioning-calaculate
+Text Domain:  sofk-air-conditioning-calculate
 Domain Path:  /languages
 
 */
 if ( ! defined( 'ABSPATH' ) ) exit;
 global  $plugin_url ,$plugin_dir;
 
-$plugin_url = plugins_url()."/sofk-air-conditioning-calaculate";
+$plugin_url = plugins_url()."/sofk-air-conditioning-calculate";
 $plugin_dir = plugin_dir_path( __FILE__ );
 if (!function_exists('SFACC_hook_css')) {
 function SFACC_hook_css() {
