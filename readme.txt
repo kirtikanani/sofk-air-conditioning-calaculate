@@ -1,4 +1,4 @@
-=== Sofk Air Conditioning calculate ===
+=== Sofk Air Conditioning calculate  ===
 Contributors: Sofk Pvt Ltd
 Tags: air conditioning, calculator, HVAC
 Requires at least: 4.6
